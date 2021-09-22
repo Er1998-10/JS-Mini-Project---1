@@ -10,6 +10,9 @@ This project was selected with the aim of creating a platform to overcome Tensio
 # purpose
 
 Playing video games fulfills a purpose in their lives. This could include gaming for: relaxation, opportunities to exert control, enjoyment, creativity, socialization, prevent boredom, challenge, and achievement.
+# ⋕ About game
+The game will start when click middle of the screen and , the enemy car comes in front of our car (color of our car is yello), our task is to protect my car to enemy car using Arrow key,there are 4 arrow key use in this game left, right,up and down,
+and increase the score to get highter score.  
 
 # 🌀 Tech Stack 
 
