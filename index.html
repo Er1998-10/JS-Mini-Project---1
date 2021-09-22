@@ -2,10 +2,11 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
     <title>Car Racing game</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
     <style>
         *{margin: 0; padding:0;font-family: 'Josefin Sans', sans-serif;}
         .hide{display: none;}
@@ -87,9 +88,7 @@
                 <p>press here to start<br>
                     Arrow keys to move <br>
                     if you hit another car you will lose
-
                 </p>
-    
         </div>
         <div class="gameArea hide"> hello </div>
     </div>
@@ -118,12 +117,12 @@
            // console.log(e.key)
             console.log(keys);
         }
-                  function isCollide(a,b){
-                      aRect =a.getBoundingClientRect();
-                      bRect =b.getBoundingClientRect();
-                      return !((aRect.bottom<bRect.top) || (aRect.top>bRect.bottom) ||(aRect.right<bRect.left)||(aRect.left>bRect.right) )
+        function isCollide(a,b){
+         aRect =a.getBoundingClientRect();
+         bRect =b.getBoundingClientRect();
+         return !((aRect.bottom<bRect.top) || (aRect.top>bRect.bottom) ||(aRect.right<bRect.left)||(aRect.left>bRect.right) )
 
-                  }
+           }
          
             function moveLines(){
                 let lines=document.querySelectorAll('.lines');
